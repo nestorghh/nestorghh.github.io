@@ -1,10 +1,4 @@
 ---
-layout: page
-title: "Blog"
+layout: home
 ---
 
-# Blog
-
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
