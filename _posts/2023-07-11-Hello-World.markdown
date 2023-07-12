@@ -9,10 +9,10 @@ I will motivate a family of iterative optimization algorithms and we will see th
 
 Ww will start with the following lemma:
 
-Let $f: \mathbb{R}^{n} \rightarrow \mathbb{R}$ be continously differentiable in an open region $D \cup \mathbb{R}^{n}$. For all $x \in D$ and $p \in \mathbb{R}^{n}$,
+Let $f: \mathbb{R}^{n} \rightarrow \mathbb{R}$ be a continously differentiable function in an open region $D \subset \mathbb{R}^{n}$. For all $x \in D$ and $p \in \mathbb{R}^{n}$,
 the directional derivative in the $p$ direction, defined by 
 
 $$
-ddd
+\frac{\partial f}{\partial x} = \lim_{\epsilon }
 $$
 
