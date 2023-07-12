@@ -5,7 +5,7 @@ date: 2023-07-11
 ---
 
 Gradient descent is the main optimizer used to solve for the objective function in many machine learning algorithms. In this post,
-I will motivate a family of iterative optimization algorithms and we will see that gradient descent is a just particular case or base case under this framework.
+I will motivate a family of iterative optimization algorithms and we will see that gradient descent is just a  particular case or base case under this framework.
 
 Ww will start with the following lemma:
 
@@ -13,6 +13,7 @@ Let $f: \mathbb{R}^{n} \rightarrow \mathbb{R}$ be a continously differentiable f
 the directional derivative in the $p$ direction, defined by 
 
 $$
-\frac{\partial f}{\partial x} = \lim_{\epsilon }
+  \frac{\partial f}{\partial x} = \lim_{\epsilon \to 0 } \frac{f(x+\epsilon p) - f(x)}{\epsilon} 
 $$
 
+exists and is equal to $\nabla (f(x)^T \cdot p)$
