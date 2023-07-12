@@ -13,7 +13,7 @@ Let $f: \mathbb{R}^{n} \rightarrow \mathbb{R}$ be a continously differentiable f
 the directional derivative in the $p$ direction, defined by 
 
 $$
-  \frac{\partial f}{\partial x} = \lim_{\epsilon \to 0 } \frac{f(x+\epsilon \quad p) - f(x)}{\epsilon} 
+  \frac{\partial f}{\partial x} = \lim_{\epsilon \to 0 } \frac{f(x+\epsilon p) - f(x)}{\epsilon} 
 $$
 
 exists and is equal to $\nabla f(x)^T \cdot p$
