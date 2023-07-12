@@ -17,3 +17,5 @@ $$
 $$
 
 exists and is equal to $\nabla f(x)^T \cdot p$
+
+\proof: 
