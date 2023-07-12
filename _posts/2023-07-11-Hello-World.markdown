@@ -18,4 +18,12 @@ $$
 
 exists and is equal to $\nabla f(x)^T \cdot p$
 
-\proof: 
+Proof:
+
+Given $x$ and $p$, let us define the scalar function $g(t) = f(x+tp)$. Since $f$ is continously differentiable in $D$, the function $g: \mathbb{R} \rightarrow \mathbb{R}$ is also 
+continuously differentiable. In fact,
+
+$$
+g'(t) = \lim_{\epsilon \to 0} \frac{g(t+\epsilon) - g(t)} {\epsilon} = \lim_{\epsilon \to 0} \frac{f(x+(t+\epsilon)p)-f(x+tp)}{\epsilon} 
+$$
+
