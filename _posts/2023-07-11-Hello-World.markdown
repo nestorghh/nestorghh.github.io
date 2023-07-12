@@ -13,7 +13,7 @@ Let $f: \mathbb{R}^{n} \rightarrow \mathbb{R}$ be a continously differentiable f
 the directional derivative in the $p$ direction, defined by 
 
 $$
-  \frac{\partial f}{\partial x} = \lim_{\epsilon \to 0 } \frac{f(x+\epsilon p) - f(x)}{\epsilon} 
+  \frac{\partial f}{\partial p} (x) = \lim_{\epsilon \to 0 } \frac{f(x+\epsilon p) - f(x)}{\epsilon} 
 $$
 
 exists and is equal to $\nabla f(x)^T \cdot p$
@@ -30,5 +30,11 @@ $$
 On the other hand, by using the chain rule we have:
 
 $$
-g'(t) = \sum_{i=1}^{n} \frac{\partial f(x)}{d}
+g'(t) = \sum_{i=1}^{n} \frac{\partial f(x+tp)}{\partial (x+tp)_{i}} \frac{(x+tp)_i}{\partial t} = \sum_{i=1}^{n} \frac{\partial f(x+tp)p_{i}}{\partial (x+tp)_i} = \nabla f(x+tp)^T \cdot p
 $$
+
+$$
+g'(0) = \nabla f(x)^T \cdot p
+$$
+
+From (1) and (2) we have that $\frac{\partial f}{\partial p} (x) = \nabla f(x)^T \cdot p $
