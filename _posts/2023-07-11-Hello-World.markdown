@@ -3,7 +3,7 @@ layout: post
 title: "Motivating Gradient Descent"
 date: 2023-07-11
 ---
-
+eeee
 
 This is an inline equation $$E = mc^2$$ in the sentence.
 
