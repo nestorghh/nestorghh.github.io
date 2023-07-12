@@ -27,3 +27,8 @@ $$
 g'(t) = \lim_{\epsilon \to 0} \frac{g(t+\epsilon) - g(t)} {\epsilon} = \lim_{\epsilon \to 0} \frac{f(x+(t+\epsilon)p)-f(x+tp)}{\epsilon} 
 $$
 
+On the other hand, by using the chain rule we have:
+
+$$
+g'(t) = \sum_{i=1}^{n} \frac{\partial f(x)}{d}
+$$
